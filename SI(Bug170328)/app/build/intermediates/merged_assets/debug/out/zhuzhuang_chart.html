@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>ichartjs 示例</title>
+		<script type="text/javascript" src="ichart-1.0.min.js"></script>
+		<script type="text/javascript">
+		var chart;
+		$(function(){
+			var data = [
+			        	{name : 'NULL',value : 0,color:'#b5bcc5'},
+			        	{name : 'NULL',value : 0,color:'#b5bcc5'},
+			        	{name : 'NULL',value : 0,color:'#b5bcc5'},
+			        	{name : 'NULL',value : 0,color:'#b5bcc5'},
+			        	{name : 'NULL',value : 0,color:'#b5bcc5'}
+		        	];
+	    	
+			chart = new iChart.Column2D({
+				render : 'canvasDiv',
+				data: data,
+				title : {
+					text:'VI Top 5 Fail',
+					color:'#b5bcc5'
+				},
+				subtitle : {
+					text:'',
+					color:'#afb6c0'
+				},
+				footnote : 'Data from SFC',
+				width : 1000,
+				height : 500,
+				coordinate:{
+					offsetx:10,
+					width:800,
+					height:370,
+					grid_color:'#d03737',
+					axis:{
+						color:'#4e5464',
+						width:[0,0,8,8]
+					},
+					scale:[{
+						 position:'left',	
+						 start_scale:0,
+						 end_scale:50,
+						 scale_space:5,
+						 label:{color:'#ffffff'},
+						 listeners:{
+							parseText:function(t,x,y){
+								return {text:t}
+							}
+						 }
+					}]
+				},
+				label:{color:'#dcdcdc'},
+				background_color : '#3c4251',
+				sub_option:{
+					listeners:{
+						parseText:function(r,t){
+							return t;
+						}
+					}
+				},
+				tip:{enable:true},
+				legend:{enable:false}
+			})
+			chart.draw();
+		});
+			function setContentInfo(data)  {  
+				var jsonObjects = eval(data);   //通过eval方法处理得到json对象数组  
+				chart.push("data",jsonObjects);
+				chart.setUp();
+				chart.draw();
+		}  
+			</script>
+		</head>
+		<body>
+			<div id='canvasDiv'></div>
+		</body>
+</html>

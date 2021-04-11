@@ -1,0 +1,344 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/view"
+    android:orientation="vertical" >
+
+    <!-- 第一個LineLayout，員工號，SN，服務器IP -->
+    <LinearLayout
+        android:background="@drawable/linearlayout_boder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMP:" />
+
+   <EditText
+        android:id="@+id/txtEMP"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SN:" />
+
+    <EditText
+        android:id="@+id/txtSN"
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"/>
+
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group:" />
+    <Spinner
+	    android:id="@+id/spinner_Group"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:entries="@array/vigroup"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ServerIP:" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/txtSERVER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10.224.134.93" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE:" />
+
+   <EditText
+        android:singleLine="true"
+        android:enabled="false"
+        android:id="@+id/txtDATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8" >
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P/N:" />
+
+    <EditText
+        android:singleLine="true"
+        android:enabled="false"
+        android:id="@+id/txtPN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MO:" />
+
+    <EditText
+        android:singleLine="true"
+        android:enabled="false"
+        android:id="@+id/txtMO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linearlayout_boder"
+        android:orientation="horizontal" >
+
+    <!-- 定义一个Gallery，其中动画换进3秒，数据项间隔3dp，透明度为50% -->
+    <Gallery
+        android:id="@+id/Gallery1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:fadingEdge="vertical"
+        android:animationDuration="3000"
+        android:spacing="3dip"
+        android:unselectedAlpha="0.5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/linearlayout_boder"
+    	android:orientation="horizontal"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_weight = "1">
+
+       <FrameLayout
+        android:id="@+id/root"
+        android:alpha="1"
+        android:layout_width="800dip"
+        android:layout_height="wrap_content">
+
+    	<ImageView
+	        android:layout_gravity="center"
+	        android:id="@+id/image1"
+	        android:layout_width="800dip"
+	        android:layout_height="800dip"
+	        android:adjustViewBounds="true"
+	        android:scaleType="fitCenter" />
+    	</FrameLayout>
+   <!-- 操作功能按钮Layout -->
+   <LinearLayout
+        android:background="@drawable/linearlayout_boder"
+        android:layout_width="240dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+   <TableLayout				
+		android:id="@+id/table4"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="*"
+		android:padding="3dip">
+		<TableRow >
+		    <TextView
+				android:text=""
+				android:layout_width="fill_parent"
+				android:layout_height="50dip"/>		    
+		</TableRow>
+		<TableRow > 
+ 			<ImageView
+               android:id="@+id/iv_pass_btn"
+               android:layout_width="70dip"
+               android:layout_height="70dip"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:clickable="true" 
+               android:src="@drawable/btn_pass1" >
+           	</ImageView>
+ 			<ImageView
+               android:id="@+id/iv_fail_btn"
+               android:layout_width="70dip"
+               android:layout_height="70dip"
+               android:layout_gravity="center"
+               android:gravity="center"
+               android:clickable="true" 
+               android:src="@drawable/btn_fail1" >
+           </ImageView>
+       </TableRow >
+       <TableRow >
+		    <TextView
+			android:text="Pass"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>	
+			<TextView
+			android:text="Fail"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>	    
+		</TableRow>
+		<TableRow >
+		    <TextView
+				android:text=""
+				android:layout_width="fill_parent"
+				android:layout_height="20dip"/>		    
+		</TableRow>
+       <TableRow >
+	        <ImageView
+               android:id="@+id/iv_search_btn"
+               android:layout_width="70dip"
+               android:layout_height="70dip"
+               android:layout_gravity="center_vertical"
+               android:gravity="center"
+               android:clickable="true" 
+               android:src="@drawable/search_icon" >
+           </ImageView>
+	       <ImageView
+               android:id="@+id/iv_home_btn"
+               android:layout_width="70dip"
+               android:layout_height="70dip"
+               android:layout_gravity="center_vertical"
+               android:gravity="center"
+               android:clickable="true" 
+               android:src="@drawable/bottom_home_d" >
+          </ImageView>
+		</TableRow>
+		<TableRow >
+		    <TextView
+			android:text="Search"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>	
+			<TextView
+			android:text="Home"
+			android:gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>	    
+		</TableRow>				
+	</TableLayout>
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+		
+	    <TextView
+			android:id="@+id/txt_selectedCode"
+			android:paddingLeft="2dip"
+			android:layout_alignParentBottom="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	    
+	    <TextView
+			android:id="@+id/txt_productFace"
+			android:paddingLeft="2dip"
+			android:layout_above="@id/txt_selectedCode"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		</RelativeLayout>
+   </LinearLayout>
+
+   	<LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	android:layout_weight = "1">
+    	<TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textSize="35px"
+	        android:background="#6CF1E4"
+	        android:text="  ErrorCode List  " />
+
+		<ListView
+			android:id="@+id/listView"
+			android:layout_width="300dip"
+			android:layout_height="fill_parent"
+			android:divider="#F4D8E1"
+			android:dividerHeight="1dp"
+			android:listSelector="#EC7EA3"
+			android:visibility="gone"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:paddingLeft="6dip"
+			android:minHeight="?android:attr/listPreferredItemHeight"
+			android:gravity="right"
+			android:layout_margin="5dp"></ListView>
+    	</LinearLayout>
+ 	</LinearLayout>
+ 	
+ 	<TableLayout       
+        android:id="@+id/rl_titlebar"
+		android:layout_width="fill_parent"
+		android:layout_height="30dip"
+		android:stretchColumns="*"
+		android:padding="1dip"
+        android:background="@drawable/top_bar_bg" > 
+        <TableRow> 
+             <TextView
+                 android:id="@+id/txtXYPointer"
+                 android:layout_width="200dip"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="2dip"
+                 android:gravity="center_vertical"
+                 android:text="X:0.0 , Y:0.0"
+                 android:background="@drawable/textview_border"
+                 android:textColor="#FF0000"/> 
+             <TextView
+	            android:id="@+id/txt_Connection"
+		        android:layout_width="150dip"
+		        android:layout_height="match_parent"
+		        android:gravity="center_vertical"
+		        android:background="@drawable/textview_border"
+		        android:textColor="#0000FF"
+		        android:text="  Connection : StandBy" />                
+             <TextView
+	            android:id="@+id/txt_PassQty"
+		        android:layout_width="fill_parent"
+		        android:layout_height="match_parent"
+		        android:gravity="bottom"
+		        android:textColor="#FF0000"
+		        android:textSize="10px"
+	        	android:text="  扫描抢版-Version:1.0.1    Designer: Ethan    Copyright ©2017-2020 CPE NN, All Rights Reserved" />     
+	        <TextView
+	            android:id="@+id/txt_FailQty"
+		        android:layout_width="1dip"
+		        android:layout_height="match_parent"
+		        android:gravity="center_vertical"
+		        android:textColor="#FF0000"
+		        android:textSize="10px"
+		        android:text="" />      
+	        <TextView
+	            android:id="@+id/txt_FailRate"
+		        android:layout_width="1dip"
+		        android:layout_height="match_parent"
+		        android:gravity="center_vertical"
+		        android:textColor="#FF0000"
+		        android:textSize="10px"
+		        android:text="" />		   	        	                
+	        	
+           <ImageView
+               android:id="@+id/iv_setting_btn"
+               android:layout_width="70dip"
+               android:layout_height="28dip"
+               android:paddingRight="10dip"
+               android:layout_gravity="center_vertical"
+               android:gravity="right"
+               android:clickable="true" 
+               android:src="@drawable/top_bar_set_btn" >
+           </ImageView>
+        </TableRow>
+    </TableLayout>	
+</LinearLayout>

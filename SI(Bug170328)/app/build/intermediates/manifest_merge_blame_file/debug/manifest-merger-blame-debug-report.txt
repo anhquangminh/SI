@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bgxt.gallerydemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:43:5-67
+11-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:43:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+12-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:44:5-45:23
+12-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:44:22-78
+13    </uses-permission>
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+14-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:46:5-47:23
+14-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:46:22-72
+15    </uses-permission>
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+16-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:48:5-49:23
+16-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:48:22-76
+17    </uses-permission>
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+18-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:50:5-51:23
+18-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:50:22-78
+19    </uses-permission>
+20    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_filesYSTEMS" />
+20-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:52:5-84
+20-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:52:22-81
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
+21-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:53:5-54:23
+21-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:53:22-76
+22    </uses-permission>
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+23-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:55:5-56:23
+23-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:55:22-73
+24    </uses-permission>
+25    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+25-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:57:5-58:23
+25-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:57:22-73
+26    </uses-permission>
+27
+28    <application
+28-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:6:5-41:19
+29        android:allowBackup="true"
+29-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:7:9-35
+30        android:debuggable="true"
+31        android:hardwareAccelerated="true"
+31-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:8:9-43
+32        android:icon="@drawable/welcome3"
+32-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:9:9-42
+33        android:label="@string/app_name"
+33-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:10:9-41
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:11:9-40
+35        <activity
+35-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:12:9-20:20
+36            android:name="com.foxconn.main.LoadingActivity"
+36-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:13:13-60
+37            android:label="@string/app_name" >
+37-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:14:13-45
+38            <intent-filter>
+38-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:15:13-19:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:16:17-69
+39-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:16:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:18:17-77
+41-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:18:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:21:9-24:20
+45            android:name="com.foxconn.main.MainActivity"
+45-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:22:13-57
+46            android:label="@string/app_name" >
+46-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:23:13-45
+47        </activity>
+48        <activity
+48-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:25:9-28:20
+49            android:name="com.foxconn.main.SettingActivity"
+49-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:26:13-60
+50            android:label="@string/app_name" >
+50-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:27:13-45
+51        </activity>
+52        <activity
+52-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:29:9-32:20
+53            android:name="com.foxconn.ichart.A1Activity"
+53-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:30:13-57
+54            android:label="@string/app_name" >
+54-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:31:13-45
+55        </activity>
+56        <activity
+56-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:33:9-36:20
+57            android:name="com.foxconn.ichart.A2Activity"
+57-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:34:13-57
+58            android:label="@string/app_name" >
+58-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:35:13-45
+59        </activity>
+60        <activity
+60-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:37:9-40:20
+61            android:name="com.foxconn.main.TableauActivity"
+61-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:38:13-60
+62            android:label="@string/title_activity_tableau" >
+62-->C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:39:13-59
+63        </activity>
+64    </application>
+65
+66</manifest>

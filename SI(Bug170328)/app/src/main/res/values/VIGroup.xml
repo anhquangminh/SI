@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vigroup">
+        <item >VI</item>
+        <item >VI1</item>
+        <item >VI2</item>
+        <item >VI3</item>
+        <item >VI_1</item>
+        <item >VI_2</item>
+        <item >VI_3</item>
+        <item >VI_4</item>
+        </string-array>
+</resources>

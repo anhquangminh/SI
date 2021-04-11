@@ -1,0 +1,141 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:1-60:12
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28a7d998d3942e99c3c94ff0768b5d9b\appcompat-v7-22.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3feffa6cdd54a9b29f1f69f403ee67e1\support-v4-22.2.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:6:5-41:19
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28a7d998d3942e99c3c94ff0768b5d9b\appcompat-v7-22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28a7d998d3942e99c3c94ff0768b5d9b\appcompat-v7-22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3feffa6cdd54a9b29f1f69f403ee67e1\support-v4-22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3feffa6cdd54a9b29f1f69f403ee67e1\support-v4-22.2.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:10:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:8:9-43
+	android:icon
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:9:9-42
+	android:allowBackup
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.foxconn.main.LoadingActivity
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:13:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.foxconn.main.MainActivity
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:21:9-24:20
+	android:label
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:22:13-57
+activity#com.foxconn.main.SettingActivity
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:25:9-28:20
+	android:label
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:27:13-45
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:26:13-60
+activity#com.foxconn.ichart.A1Activity
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:29:9-32:20
+	android:label
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:31:13-45
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:30:13-57
+activity#com.foxconn.ichart.A2Activity
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:33:9-36:20
+	android:label
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:35:13-45
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:34:13-57
+activity#com.foxconn.main.TableauActivity
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:39:13-59
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:38:13-60
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:43:5-67
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:43:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:44:5-45:23
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:44:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:46:5-47:23
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:46:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:48:5-49:23
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:48:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:50:5-51:23
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:50:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_filesYSTEMS
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:52:5-84
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:52:22-81
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:53:5-54:23
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:53:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:55:5-56:23
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:55:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:57:5-58:23
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml:57:22-73
+uses-sdk
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28a7d998d3942e99c3c94ff0768b5d9b\appcompat-v7-22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\28a7d998d3942e99c3c94ff0768b5d9b\appcompat-v7-22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3feffa6cdd54a9b29f1f69f403ee67e1\support-v4-22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3feffa6cdd54a9b29f1f69f403ee67e1\support-v4-22.2.0\AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\SI(Bug170328)\app\src\main\AndroidManifest.xml

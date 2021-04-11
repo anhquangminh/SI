@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="error_code">
+        <item >刮傷</item>
+        <item >缺角</item>
+        <item >髒污</item>
+        </string-array>
+</resources>
